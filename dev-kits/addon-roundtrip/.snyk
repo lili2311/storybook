@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@storybook/client-api > lodash':
+        patched: '2020-04-30T23:24:39.304Z'
+    - '@storybook/addons > @storybook/api > lodash':
+        patched: '2020-04-30T23:24:39.304Z'
+    - '@storybook/api > telejson > lodash':
+        patched: '2020-04-30T23:24:39.304Z'
+    - '@storybook/client-api > @storybook/addons > @storybook/api > lodash':
+        patched: '2020-04-30T23:24:39.304Z'
+    - '@storybook/client-api > @storybook/channel-postmessage > telejson > lodash':
+        patched: '2020-04-30T23:24:39.304Z'
+    - '@storybook/client-api > @storybook/addons > @storybook/api > @storybook/router > lodash':
+        patched: '2020-04-30T23:24:39.304Z'
+    - '@storybook/client-api > @storybook/addons > @storybook/api > telejson > lodash':
+        patched: '2020-04-30T23:24:39.304Z'
+    - '@storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:24:39.304Z'
+    - '@storybook/components > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:24:39.304Z'
+    - '@storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:24:39.304Z'
+    - '@storybook/client-api > @storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:24:39.304Z'
+    - '@storybook/client-api > @storybook/addons > @storybook/api > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:24:39.304Z'
