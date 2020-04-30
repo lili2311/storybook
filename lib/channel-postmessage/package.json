@@ -24,16 +24,19 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepare": "node ../../scripts/prepare.js"
+    "prepare": "npm run snyk-protect && node ../../scripts/prepare.js",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "@storybook/channels": "5.3.0-alpha.22",
     "@storybook/client-logger": "5.3.0-alpha.22",
     "core-js": "^3.0.1",
     "global": "^4.3.2",
-    "telejson": "^3.0.3"
+    "telejson": "^3.0.3",
+    "snyk": "^1.316.1"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
