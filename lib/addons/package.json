@@ -24,7 +24,8 @@
   "main": "dist/public_api.js",
   "types": "dist/public_api.d.ts",
   "scripts": {
-    "prepare": "node ../../scripts/prepare.js"
+    "prepare": "npm run snyk-protect && node ../../scripts/prepare.js",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "@storybook/api": "5.3.0-alpha.22",
@@ -33,12 +34,14 @@
     "@storybook/core-events": "5.3.0-alpha.22",
     "core-js": "^3.0.1",
     "global": "^4.3.2",
-    "util-deprecate": "^1.0.2"
+    "util-deprecate": "^1.0.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/util-deprecate": "^1.0.0"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
