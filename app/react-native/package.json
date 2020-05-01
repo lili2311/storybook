@@ -26,7 +26,8 @@
   ],
   "main": "dist/index.js",
   "scripts": {
-    "prepare": "node ../../scripts/prepare.js"
+    "prepare": "npm run snyk-protect && node ../../scripts/prepare.js",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "@emotion/core": "^10.0.20",
@@ -39,7 +40,8 @@
     "core-js": "^3.0.1",
     "emotion-theming": "^10.0.19",
     "react-native-swipe-gestures": "^1.0.4",
-    "rn-host-detect": "^1.1.5"
+    "rn-host-detect": "^1.1.5",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/react-native": "^0.57.57",
@@ -54,5 +56,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
