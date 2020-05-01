@@ -1,0 +1,42 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@storybook/client-api > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@storybook/addons > @storybook/api > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@storybook/client-api > @storybook/addons > @storybook/api > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - jest-specific-snapshot > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@storybook/client-api > @storybook/channel-postmessage > telejson > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@storybook/client-api > @storybook/addons > @storybook/api > @storybook/router > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@storybook/client-api > @storybook/addons > @storybook/api > telejson > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@storybook/client-api > @storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
+    - '@storybook/client-api > @storybook/addons > @storybook/api > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T00:44:48.586Z'
