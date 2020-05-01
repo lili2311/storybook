@@ -8,14 +8,18 @@
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "storybook": "start-storybook -p 6006",
-    "test": "react-scripts test --env=jsdom"
+    "test": "react-scripts test --env=jsdom",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "0.9.x"
+    "react-scripts": "1.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@kadira/storybook": "^2.21.0"
-  }
+  },
+  "snyk": true
 }
