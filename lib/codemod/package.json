@@ -24,7 +24,8 @@
   "main": "dist/index.js",
   "jsnext:main": "src/index.js",
   "scripts": {
-    "prepare": "node ../../scripts/prepare.js"
+    "prepare": "npm run snyk-protect && node ../../scripts/prepare.js",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.0.0",
@@ -37,9 +38,11 @@
     "lodash": "^4.17.15",
     "prettier": "^1.16.4",
     "recast": "^0.16.1",
-    "regenerator-runtime": "^0.13.3"
+    "regenerator-runtime": "^0.13.3",
+    "snyk": "^1.316.1"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
