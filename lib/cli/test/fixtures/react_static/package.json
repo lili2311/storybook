@@ -7,18 +7,22 @@
     "build": "react-static build",
     "serve": "serve dist -p 3000",
     "stage": "react-static build --staging",
-    "start": "react-static start"
+    "start": "react-static start",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-router": "^4.3.1",
-    "react-static": "^5"
+    "react-static": "^5",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "eslint-config-react-tools": "1.x.x",
     "serve": "^6.1.0"
-  }
+  },
+  "snyk": true
 }
