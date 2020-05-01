@@ -16,11 +16,14 @@
     "serve-static": "NODE_ENV=production marko-starter serve-static",
     "start": "marko-starter server",
     "storybook": "start-storybook -p 9005",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "marko": "^4.16.15",
-    "marko-starter": "^2.0.4"
+    "marko-starter": "^2.0.4",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "5.3.0-alpha.22",
@@ -33,5 +36,6 @@
     "@storybook/source-loader": "5.3.0-alpha.22",
     "prettier": "^1.16.4",
     "webpack": "^4.33.0"
-  }
+  },
+  "snyk": true
 }
