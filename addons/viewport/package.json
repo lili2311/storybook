@@ -25,7 +25,8 @@
   ],
   "main": "preview.js",
   "scripts": {
-    "prepare": "node ../../scripts/prepare.js"
+    "prepare": "npm run snyk-protect && node ../../scripts/prepare.js",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "@storybook/addons": "5.3.0-alpha.22",
@@ -38,7 +39,8 @@
     "global": "^4.3.2",
     "memoizerific": "^1.11.3",
     "prop-types": "^15.7.2",
-    "util-deprecate": "^1.0.2"
+    "util-deprecate": "^1.0.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/util-deprecate": "^1.0.0"
@@ -48,5 +50,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
