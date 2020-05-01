@@ -1,0 +1,54 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@storybook/api > lodash':
+        patched: '2020-05-01T08:48:36.373Z'
+    - '@storybook/addons > @storybook/api > lodash':
+        patched: '2020-05-01T08:48:36.373Z'
+    - '@storybook/api > telejson > lodash':
+        patched: '2020-05-01T08:48:36.373Z'
+    - '@storybook/addons > @storybook/api > @storybook/router > lodash':
+        patched: '2020-05-01T08:48:36.373Z'
+    - '@storybook/addons > @storybook/api > telejson > lodash':
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-parser > graphql-config > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-config > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-parser > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-parser > graphql-language-service-types > graphql-config > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-types > graphql-config > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-config > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-config > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - '@storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-parser > graphql-language-service-types > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-types > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-language-service-types > graphql-config > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-language-service-types > graphql-config > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - '@storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-language-service-types > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-language-service-types > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T08:48:36.373Z'
+    - '@storybook/addons > @storybook/api > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T08:48:36.373Z'
