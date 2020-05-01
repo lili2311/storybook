@@ -30,7 +30,8 @@
     "storybook-server": "./bin/index.js"
   },
   "scripts": {
-    "prepare": "node ../../scripts/prepare.js"
+    "prepare": "npm run snyk-protect && node ../../scripts/prepare.js",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "@babel/plugin-transform-react-constant-elements": "^7.2.0",
@@ -53,7 +54,8 @@
     "regenerator-runtime": "^0.13.3",
     "semver": "^6.0.0",
     "ts-dedent": "^1.1.0",
-    "webpack": "^4.33.0"
+    "webpack": "^4.33.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/mini-css-extract-plugin": "^0.8.0",
@@ -71,5 +73,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
