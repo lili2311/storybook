@@ -1,0 +1,66 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@storybook/addon-knobs > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/addon-knobs > @storybook/client-api > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/addon-knobs > react-color > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @storybook/ui > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/addon-viewport > @storybook/api > telejson > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/addon-knobs > react-color > reactcss > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > babel-preset-minify > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > html-webpack-plugin > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > inquirer > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @storybook/ui > telejson > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > babel-preset-minify > babel-plugin-minify-dead-code-elimination > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > react-dev-utils > inquirer > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @storybook/client-api > @storybook/channel-postmessage > telejson > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/addon-knobs > react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/addon-viewport > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @storybook/ui > @storybook/addons > @storybook/api > telejson > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/addon-knobs > react-select > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @storybook/ui > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @storybook/ui > @storybook/components > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @storybook/ui > @storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
+    - '@storybook/polymer > @storybook/core > @storybook/ui > @storybook/addons > @storybook/api > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T02:58:07.831Z'
