@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T00:50:01.103Z'
+    - '@storybook/client-api > lodash':
+        patched: '2020-05-01T00:50:01.103Z'
+    - react-color > lodash:
+        patched: '2020-05-01T00:50:01.103Z'
+    - '@storybook/addons > @storybook/api > lodash':
+        patched: '2020-05-01T00:50:01.103Z'
+    - '@storybook/api > telejson > lodash':
+        patched: '2020-05-01T00:50:01.103Z'
+    - react-color > reactcss > lodash:
+        patched: '2020-05-01T00:50:01.103Z'
+    - '@storybook/client-api > @storybook/addons > @storybook/api > lodash':
+        patched: '2020-05-01T00:50:01.103Z'
+    - '@storybook/client-api > @storybook/channel-postmessage > telejson > lodash':
+        patched: '2020-05-01T00:50:01.103Z'
+    - '@storybook/client-api > @storybook/addons > @storybook/api > @storybook/router > lodash':
+        patched: '2020-05-01T00:50:01.103Z'
+    - '@storybook/client-api > @storybook/addons > @storybook/api > telejson > lodash':
+        patched: '2020-05-01T00:50:01.103Z'
+    - react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T00:50:01.103Z'
+    - '@storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T00:50:01.103Z'
+    - '@storybook/components > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T00:50:01.103Z'
+    - react-select > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T00:50:01.103Z'
+    - '@storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T00:50:01.103Z'
+    - '@storybook/client-api > @storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T00:50:01.103Z'
+    - '@storybook/client-api > @storybook/addons > @storybook/api > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T00:50:01.103Z'
