@@ -24,7 +24,8 @@
   ],
   "main": "dist/index.js",
   "scripts": {
-    "prepare": "node ../../scripts/prepare.js"
+    "prepare": "npm run snyk-protect && node ../../scripts/prepare.js",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "@storybook/addons": "5.3.0-alpha.22",
@@ -35,7 +36,8 @@
     "react-native-color-picker": "^0.4.0",
     "react-native-modal-datetime-picker": "^7.4.2",
     "react-native-modal-selector": "^1.0.2",
-    "react-native-switch": "^1.5.0"
+    "react-native-switch": "^1.5.0",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "@storybook/addon-knobs": "5.2.0-beta.13",
@@ -44,5 +46,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
