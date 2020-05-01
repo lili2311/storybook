@@ -24,7 +24,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepare": "node ../../scripts/prepare.js"
+    "prepare": "npm run snyk-protect && node ../../scripts/prepare.js",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "@storybook/addons": "5.3.0-alpha.22",
@@ -34,7 +35,8 @@
     "@storybook/core-events": "5.3.0-alpha.22",
     "core-js": "^3.0.1",
     "prop-types": "^15.7.2",
-    "react-native-simple-markdown": "^1.1.0"
+    "react-native-simple-markdown": "^1.1.0",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "react": "*",
@@ -42,5 +44,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
