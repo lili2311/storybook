@@ -24,7 +24,8 @@
   "main": "dist/index.js",
   "scripts": {
     "createDlls": "node -r esm ./scripts/createDlls.js",
-    "prepare": "node ../../scripts/prepare.js"
+    "prepare": "npm run snyk-protect && node ../../scripts/prepare.js",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "@storybook/addons": "5.3.0-alpha.22",
@@ -59,7 +60,8 @@
     "semver": "^6.0.0",
     "store2": "^2.7.1",
     "telejson": "^3.0.3",
-    "util-deprecate": "^1.0.2"
+    "util-deprecate": "^1.0.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@storybook/addon-actions": "5.3.0-alpha.22",
@@ -71,5 +73,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
