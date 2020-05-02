@@ -1,0 +1,70 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@storybook/api > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@storybook/addons > @storybook/api > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@storybook/api > telejson > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@storybook/source-loader > @storybook/addons > @storybook/api > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/mdx > remark-mdx > @babel/core > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@storybook/addons > @storybook/api > telejson > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@storybook/source-loader > @storybook/addons > @storybook/api > @storybook/router > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@storybook/source-loader > @storybook/addons > @storybook/api > telejson > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/loader > @mdx-js/mdx > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/mdx > remark-mdx > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/loader > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@storybook/components > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/loader > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/loader > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@storybook/source-loader > @storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@storybook/source-loader > @storybook/addons > @storybook/api > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/loader > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
+    - '@mdx-js/loader > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-05-02T03:04:54.008Z'
