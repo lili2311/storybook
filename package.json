@@ -74,7 +74,9 @@
     "test": "node ./scripts/test.js",
     "test-latest-cra": "yarn --prefix --cwd lib/cli run test-latest-cra",
     "test:cli": "npm --prefix lib/cli run test",
-    "test:e2e-gui": "concurrently --success first --kill-others \"cypress open\" \"yarn serve-storybooks\""
+    "test:e2e-gui": "concurrently --success first --kill-others \"cypress open\" \"yarn serve-storybooks\"",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "husky": {
     "hooks": {
@@ -274,5 +276,9 @@
         "Other"
       ]
     ]
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
