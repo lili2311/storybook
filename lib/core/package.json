@@ -40,7 +40,7 @@
     "@storybook/node-logger": "5.3.0-alpha.22",
     "@storybook/router": "5.3.0-alpha.22",
     "@storybook/theming": "5.3.0-alpha.22",
-    "@storybook/ui": "5.3.0-alpha.22",
+    "@storybook/ui": "6.5.0",
     "airbnb-js-shims": "^1 || ^2",
     "ansi-to-html": "^0.6.11",
     "autoprefixer": "^9.4.9",
@@ -92,7 +92,7 @@
     "unfetch": "^4.1.0",
     "url-loader": "^2.0.1",
     "util-deprecate": "^1.0.2",
-    "webpack": "^4.33.0",
+    "webpack": "^5.0.0",
     "webpack-dev-middleware": "^3.7.0",
     "webpack-hot-middleware": "^2.25.0"
   },
