@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@storybook/client-logger": "5.3.0-alpha.22",
-    "@storybook/theming": "5.3.0-alpha.22",
+    "@storybook/theming": "6.5.0",
     "@types/react-syntax-highlighter": "11.0.1",
     "core-js": "^3.0.1",
     "global": "^4.3.2",
@@ -42,7 +42,7 @@
     "react-focus-lock": "^2.1.0",
     "react-helmet-async": "^1.0.2",
     "react-popper-tooltip": "^2.8.3",
-    "react-syntax-highlighter": "^11.0.2",
+    "react-syntax-highlighter": "^13.0.0",
     "react-textarea-autosize": "^7.1.0",
     "simplebar-react": "^1.0.0-alpha.6",
     "ts-dedent": "^1.1.0"
