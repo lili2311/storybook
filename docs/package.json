@@ -12,31 +12,33 @@
   "scripts": {
     "build": "gatsby build --prefix-paths && cp static/**/* ./public",
     "dev": "gatsby develop",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "@storybook/components": "5.2.0-beta.48",
-    "@storybook/theming": "5.2.0-beta.7",
+    "@storybook/components": "6.1.0",
+    "@storybook/theming": "5.2.0",
     "babel-loader": "^6.4.1",
     "babel-plugin-styled-components": "^1.10.6",
     "bootstrap": "^4.3.1",
-    "gatsby": "^1.9.279",
+    "gatsby": "^5.0.0",
     "gatsby-link": "^1.6.45",
     "gatsby-plugin-segment": "^1.0.2",
-    "gatsby-plugin-sharp": "^1.6.48",
+    "gatsby-plugin-sharp": "^4.8.0",
     "gatsby-plugin-styled-components": "^2.0.0",
     "gatsby-remark-autolink-headers": "^1.4.19",
     "gatsby-remark-copy-linked-files": "^1.5.37",
-    "gatsby-remark-images": "^1.5.67",
+    "gatsby-remark-images": "^5.0.0",
     "gatsby-remark-smartypants": "^1.4.12",
-    "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-remark": "^1.7.44",
+    "gatsby-source-filesystem": "^4.21.0",
+    "gatsby-transformer-remark": "^6.0.0",
     "global": "^4.4.0",
     "html-react-parser": "^0.9.1",
     "is-builtin-module": "^3.0.0",
-    "lodash": "^4.17.15",
-    "marked": "^0.7.0",
-    "polished": "^3.4.1",
+    "lodash": "^4.17.21",
+    "marked": "^4.0.10",
+    "polished": "^3.7.2",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-document-title": "^2.0.3",
@@ -47,8 +49,10 @@
     "react-stack-grid": "^0.7.1",
     "recompose": "^0.30.0",
     "sitemap": "^4.1.1",
-    "styled-components": "^4.3.2",
+    "styled-components": "^6.1.0",
     "ts-dedent": "^1.1.0",
-    "validatorjs": "^3.15.1"
-  }
+    "validatorjs": "^3.15.1",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
