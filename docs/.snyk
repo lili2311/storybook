@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -70,3 +70,184 @@ patch:
         patched: '2018-10-16T09:11:57.220Z'
     - gatsby-plugin-sharp > imagemin-mozjpeg > mozjpeg > bin-wrapper > download > caw > tunnel-agent:
         patched: '2018-10-16T09:11:57.220Z'
+  SNYK-JS-LODASH-567746:
+    - babel-plugin-styled-components > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-plugin-styled-components > lodash
+    - gatsby > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > lodash
+    - gatsby-plugin-sharp > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby-plugin-sharp > lodash
+    - gatsby-remark-copy-linked-files > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby-remark-copy-linked-files > lodash
+    - gatsby-remark-images > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby-remark-images > lodash
+    - gatsby-transformer-remark > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby-transformer-remark > lodash
+    - styled-components > babel-plugin-styled-components > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: styled-components > babel-plugin-styled-components > lodash
+    - gatsby > async > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > async > lodash
+    - gatsby-plugin-sharp > async > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby-plugin-sharp > async > lodash
+    - gatsby > babel-core > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > babel-core > lodash
+    - gatsby > gatsby-cli > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > gatsby-cli > lodash
+    - gatsby > gatsby-plugin-page-creator > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > gatsby-plugin-page-creator > lodash
+    - gatsby > lowdb > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > lowdb > lodash
+    - gatsby > postcss-reporter > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > postcss-reporter > lodash
+    - gatsby > redux > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > redux > lodash
+    - gatsby-remark-images > gatsby-plugin-sharp > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby-remark-images > gatsby-plugin-sharp > lodash
+    - gatsby-source-filesystem > babel-cli > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby-source-filesystem > babel-cli > lodash
+    - styled-components > @babel/traverse > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: styled-components > @babel/traverse > lodash
+    - gatsby-remark-copy-linked-files > cheerio > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby-remark-copy-linked-files > cheerio > lodash
+    - gatsby-remark-images > cheerio > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby-remark-images > cheerio > lodash
+    - gatsby-remark-images > gatsby-plugin-sharp > async > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby-remark-images > gatsby-plugin-sharp > async > lodash
+    - gatsby > babel-core > babel-generator > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > babel-core > babel-generator > lodash
+    - gatsby-source-filesystem > babel-cli > babel-core > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby-source-filesystem > babel-cli > babel-core > lodash
+    - gatsby > babel-core > babel-register > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > babel-core > babel-register > lodash
+    - gatsby > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-preset-env >
+          babel-plugin-transform-es2015-block-scoping > lodash
+    - gatsby > remote-redux-devtools > redux-devtools-instrument > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > remote-redux-devtools > redux-devtools-instrument > lodash
+    - gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > webpack-dev-server > http-proxy-middleware > lodash
+    - styled-components > @babel/traverse > @babel/generator > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: styled-components > @babel/traverse > @babel/generator > lodash
+    - gatsby-source-filesystem > babel-cli > babel-core > babel-generator > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-source-filesystem > babel-cli > babel-core > babel-generator >
+          lodash
+    - gatsby > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > babel-core > babel-helpers > babel-template > lodash
+    - gatsby-source-filesystem > babel-cli > babel-core > babel-register > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-source-filesystem > babel-cli > babel-core > babel-register >
+          lodash
+    - gatsby > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-preset-env > babel-plugin-transform-es2015-classes >
+          babel-helper-define-map > lodash
+    - gatsby > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-preset-env > babel-plugin-transform-es2015-sticky-regex
+          > babel-helper-regex > lodash
+    - styled-components > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          styled-components > @babel/traverse > @babel/generator > @babel/types
+          > lodash
+    - gatsby > babel-core > babel-generator > babel-types > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > babel-core > babel-generator > babel-types > lodash
+    - gatsby > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-core > babel-helpers > babel-template > babel-traverse
+          > lodash
+    - gatsby-source-filesystem > babel-cli > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-source-filesystem > babel-cli > babel-core > babel-helpers >
+          babel-template > lodash
+    - gatsby > serve > serve-handler > glob-slasher > toxic > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > serve > serve-handler > glob-slasher > toxic > lodash
+    - gatsby-source-filesystem > babel-cli > babel-core > babel-generator > babel-types > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-source-filesystem > babel-cli > babel-core > babel-generator >
+          babel-types > lodash
+    - gatsby-source-filesystem > babel-cli > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2026-02-05T23:42:46.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-source-filesystem > babel-cli > babel-core > babel-helpers >
+          babel-template > babel-traverse > lodash
