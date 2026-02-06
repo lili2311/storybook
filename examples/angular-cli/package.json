@@ -20,13 +20,13 @@
   "dependencies": {
     "@angular/common": "^8.2.8",
     "@angular/compiler": "^8.2.8",
-    "@angular/core": "^8.2.8",
+    "@angular/core": "^11.0.5",
     "@angular/forms": "^8.2.8",
     "@angular/platform-browser": "^8.2.8",
     "@angular/platform-browser-dynamic": "^8.2.8",
     "@ngrx/store": "^8.2.0",
     "core-js": "^3.0.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^9.0.0",
     "rxjs": "^6.3.3",
     "rxjs-compat": "^6.4.0",
     "zone.js": "^0.10.2"
